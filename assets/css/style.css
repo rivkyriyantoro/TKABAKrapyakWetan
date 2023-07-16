@@ -1,0 +1,200 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f5f5f5;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.carousel-inner img {
+  width: 500px;
+  height: 500px;
+}
+section {
+  padding-top: 6rem;
+}
+
+.bg-nav {
+  background-color: #89c487;
+  color: white;
+}
+
+.mt--2 {
+  margin-top: -0.5rem !important;
+}
+
+.hr-dotted {
+  border-top: 1px dotted;
+  opacity: 0.25;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fafcff !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.feature-icon-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 100%;
+}
+
+.btn-social-media {
+  color: #31316a;
+  background-color: #cdcfdf;
+  border-color: #cdcfdf;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.2rem;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.btn-social-media:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer p {
+  margin: auto;
+}
+
+.footer .copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #eb2d2d;
+}
+
+.footer .link a {
+  text-decoration: none;
+}
+
+.footer .link a:hover {
+  color: #f1f2f4;
+}
+
+.col-4 {
+  min-height: 200px;
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+.thumbnail-box {
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.thumbail-img {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumbnail-text {
+  height: 55px;
+  padding: 5px;
+}
+
+.thumbnail-link {
+  color: #333;
+}
+
+.thumbnail-link:hover {
+  color: #0d6efd;
+}
+
+.wadah {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.wadah::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bagian {
+  padding: 100px 0;
+}
+
+.bagian h3 {
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.bagian img {
+  margin-left: 10px;
+  left: auto;
+}
+
+.bagian h4 {
+  margin-bottom: 20px;
+}
+
+.gambar_galeri {
+  width: 80%;
+  /* display: block;
+  margin: auto; */
+}
+
+.gambar_informasi {
+  width: 80%;
+  /* display: block;
+  margin: auto; */
+}
+
+@media screen and (max-width: 768px) {
+  .gambar_galeri {
+    width: 100%;
+  }
+  .gambar_ppdb {
+    width: 100%;
+  }
+  .wadah {
+    width: 100%;
+  }
+
+  .caross {
+    padding-bottom: -20px;
+  }
+
+  .col-4 {
+    width: 50%;
+  }
+  .demo {
+    width: 100%;
+  }
+  .thumbnail-text {
+    font-size: 14px;
+  }
+}
